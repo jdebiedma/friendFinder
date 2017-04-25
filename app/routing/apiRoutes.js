@@ -59,7 +59,7 @@ app.post("/api/friends", function(req, res) {
 
 	
 
-	res.json("Your match is " + friendsData[myMatch].name);
+	res.json(friendsData[myMatch]);
 
 });
 
